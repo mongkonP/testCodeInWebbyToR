@@ -1,0 +1,25 @@
+﻿
+
+using java2s.CSharp.C0460__GUI_Windows_Forms.C0040__Form;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace testCodeInWebbyToR
+{
+    static class Program
+    {
+        /// <summary>
+        /// The main entry point for the application.
+        /// </summary>
+        [STAThread]
+        static void Main()
+        {
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new frmAddcontroltoFormdynamically());
+        }
+    }
+}
