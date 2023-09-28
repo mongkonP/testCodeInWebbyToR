@@ -1,0 +1,37 @@
+using System;
+using System.Collections.Generic;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using TORServices.Forms;
+namespace java2s.CSharp.C0140__Class.C0200__this
+{
+    //http://www.java2s.com/Tutorial/CSharp/0140__Class/Usethistoreferenceshadowedmembervariables.htm
+    public partial  class frmUsethistoreferenceshadowedmembervariables:Form
+    {
+        public frmUsethistoreferenceshadowedmembervariables()
+        {
+            InitializeComponent();
+        }
+        private void InitializeComponent()
+        {
+            this.SuspendLayout();
+            // 
+            // frmUsethistoreferenceshadowedmembervariables
+            // 
+            this.ClientSize = new System.Drawing.Size(756, 454);
+            this.Name = "frmUsethistoreferenceshadowedmembervariables";
+            this.Text = "frmUsethistoreferenceshadowedmembervariables";
+            this.Load += new System.EventHandler(this.frmUsethistoreferenceshadowedmembervariables_Load);
+            this.ResumeLayout(false);
+
+        }
+
+        private void frmUsethistoreferenceshadowedmembervariables_Load(object sender, EventArgs e)
+        {
+
+        }
+    }
+}
